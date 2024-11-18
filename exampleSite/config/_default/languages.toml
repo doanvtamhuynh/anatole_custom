@@ -4,11 +4,8 @@ weight = 1
 LanguageName = "EN"
 contentDir = "content/english"
 
-[ar]
-title = "فلانة الفلانية"
-contentDir = "content/arabic" 
+[vi]
+title = "Blog của tôi"
 weight = 2
-LanguageDirection = "rtl" 
-LanguageName = "AR"
-[ar.params]
-description = "أنا أعمل كمطورة ويب في شركة س"
+LanguageName = "VI"
+contentDir = "content/vietnamese"

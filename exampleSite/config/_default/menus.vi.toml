@@ -1,0 +1,55 @@
+[category]
+other = "Danh mục"
+
+[tag]
+other = "Thẻ"
+
+[reading_time]
+one = "Thời gian đọc"
+other = "Đọc trong {{ .Count }} phút"
+
+[old_content_warning]
+one = "Cảnh báo: Bài viết này đã hơn {{ .Count }} ngày tuổi. Thông tin có thể không còn chính xác."
+other = "Cảnh báo: Bài viết này đã hơn {{ .Count }} ngày tuổi. Thông tin có thể không còn chính xác."
+
+[page_not_found]
+other = "Không tìm thấy trang"
+
+[page_does_not_exist]
+other = "Xin lỗi, trang này không tồn tại."
+
+[head_back]
+other = "Bạn có thể quay lại <a href=\"{{ . }}\">trang chủ</a>."
+
+[comments]
+other = "Bình luận"
+
+[send]
+other = "Gửi"
+
+[read_more]
+other = "Xem thêm"
+
+[name]
+other = "Tên"
+
+[email]
+other = "Email"
+
+[message]
+other = "Tin nhắn" 
+
+[warning]
+other = "Cảnh báo"
+
+[info]
+other = "Thông tin"
+
+[update]
+other = "Cập nhật"
+
+[series_posts]
+other = "Các bài viết trong chuỗi này"
+
+[related_posts]
+other = "Bài viết liên quan"
