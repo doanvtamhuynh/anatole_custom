@@ -1,55 +1,54 @@
-[category]
-other = "Danh mục"
+[[main]]
+name = "Trang chủ"
+identifier = "home"
+weight = 100
+url = "/"
 
-[tag]
-other = "Thẻ"
+[[main]]
+name = "Bài viết"
+weight = 200
+identifier = "posts"
+url = "/post/"
 
-[reading_time]
-one = "Thời gian đọc"
-other = "Đọc trong {{ .Count }} phút"
+[[main]]
+name = "Danh mục đầu tư"
+weight = 300
+identifier = "portfolio"
+url = "/portfolio/"
 
-[old_content_warning]
-one = "Cảnh báo: Bài viết này đã hơn {{ .Count }} ngày tuổi. Thông tin có thể không còn chính xác."
-other = "Cảnh báo: Bài viết này đã hơn {{ .Count }} ngày tuổi. Thông tin có thể không còn chính xác."
+[[main]]
+name = "Giới thiệu"
+weight = 400
+identifier = "about"
+url = "/about/"
 
-[page_not_found]
-other = "Không tìm thấy trang"
+[[main]]
+name = "Thành tựu"
+weight = 500
+identifier = "accomplishments"
 
-[page_does_not_exist]
-other = "Xin lỗi, trang này không tồn tại."
+[[main]]
+name = "Giải thưởng"
+weight = 510
+identifier = "awards"
+url = "/awards/"
+parent = "accomplishments"
 
-[head_back]
-other = "Bạn có thể quay lại <a href=\"{{ . }}\">trang chủ</a>."
+[[main]]
+name = "Chứng chỉ"
+weight = 520
+identifier = "certifications"
+url = "/certifications/"
+parent = "accomplishments"
 
-[comments]
-other = "Bình luận"
+[[main]]
+name = "Liên hệ"
+weight = 600
+identifier = "contact"
+url = "/contact/"
 
-[send]
-other = "Gửi"
-
-[read_more]
-other = "Xem thêm"
-
-[name]
-other = "Tên"
-
-[email]
-other = "Email"
-
-[message]
-other = "Tin nhắn" 
-
-[warning]
-other = "Cảnh báo"
-
-[info]
-other = "Thông tin"
-
-[update]
-other = "Cập nhật"
-
-[series_posts]
-other = "Các bài viết trong chuỗi này"
-
-[related_posts]
-other = "Bài viết liên quan"
+[[footer]]
+name = "Thông tin pháp lý"
+weight = 1
+identifier = "imprint"
+url = "/imprint/"
